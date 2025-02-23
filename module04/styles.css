@@ -1,8 +1,8 @@
 .header {
     background-color: #008833;
-    padding: 1;
+    padding: 1rem;
 }
 
-.header-link {
+.header-for-link {
     color: #99ccff;
 }
