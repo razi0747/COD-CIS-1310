@@ -12,3 +12,10 @@
     padding: 1rem;
     min-height: 50v;
 }
+
+
+/*making the 2 first words of the pargraphs bigger*/
+.large {
+    font-size: 2em;
+}
+
