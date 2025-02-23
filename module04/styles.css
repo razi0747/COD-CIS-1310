@@ -6,3 +6,9 @@
 .header-for-link {
     color: #99ccff;
 }
+
+.main {
+    background-color: lightgrey;                        /* these styles should make the main section take up most of the page and add the backgrondud*/
+    padding: 1rem;
+    min-height: 50v;
+}
