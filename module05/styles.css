@@ -64,7 +64,7 @@ body {
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
-nav ul {
+nav ul li{
     list-style-type: square; /* this should make the bullet points into squares */
 }
 
