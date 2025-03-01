@@ -102,6 +102,10 @@ main {
     border-right: 1px solid black /* this specifices the type of broder */
 }
 
+aside {
+    width: 30%;
+    text-align: right;
+}
 /*--------------------------------------------------------------
 # Footer Area
 --------------------------------------------------------------*/
