@@ -99,7 +99,7 @@ main {
     width: 70%;
     text-align: left;
     padding: 1rem;
-    border-right: 1px;
+    border-right: 1px solid black /* this specifices the type of broder */
 }
 
 /*--------------------------------------------------------------
