@@ -98,6 +98,7 @@ header {
 --------------------------------------------------------------*/
 main > section {
     width: 70%;
+    float: left;
     text-align: left;
     padding: 1rem;
     border-right: 1px solid black /* this specifices the type of broder */
