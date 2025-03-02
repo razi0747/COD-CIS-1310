@@ -97,7 +97,7 @@ header {
 # Content Area
 --------------------------------------------------------------*/
 main > section {
-    width: 70%;
+    width: calc(70% - 1px);
     float: left;
     text-align: left;
     padding: 1rem;
