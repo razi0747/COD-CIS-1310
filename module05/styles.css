@@ -110,10 +110,11 @@ aside {
 /*--------------------------------------------------------------
 # Footer Area
 --------------------------------------------------------------*/
-footer {
+footer { 
     background-color: burlywood;
     text-align: center;
     padding: 20px;
+    clear: both; /*have to add this to stop the image/text from overflowing into the footer*/
 }
 
 /*--------------------------------------------------------------
