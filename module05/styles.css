@@ -64,6 +64,7 @@ body {
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
+
 nav ul li{
     list-style-type: square; /* this should make the bullet points into squares */
     color: aqua;
@@ -95,7 +96,7 @@ header {
 /*--------------------------------------------------------------
 # Content Area
 --------------------------------------------------------------*/
-main {
+main > section {
     width: 70%;
     text-align: left;
     padding: 1rem;
@@ -103,8 +104,8 @@ main {
 }
 
 aside {
-    width: 30%;
     float: right;
+    width: 30%;
 }
 /*--------------------------------------------------------------
 # Footer Area
