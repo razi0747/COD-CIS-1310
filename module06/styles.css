@@ -8,22 +8,33 @@ form {
 }
 
 input {
-    padding: 8px;
+    padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #000000;
     border-radius: 4px;
 }
 
 select {
-    padding: 8px;
+    padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #000000;
     border-radius: 4px;
 }
 
 textarea{
-    padding: 8px;
+    padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #000000;
     border-radius: 4px;
+}
+
+label{
+    display: block;
+}
+
+label[for*="full_name"], 
+label[for*="email"], 
+label[for*="password"], 
+label[for*="agree"] {
+    color: red;
 }
