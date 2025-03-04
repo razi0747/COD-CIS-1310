@@ -1,7 +1,28 @@
 body{
-    background-color: bisque;
+    background-color: white;
 }
 
 form {
     background-color: aliceblue;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+select {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+textarea{
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
 }
