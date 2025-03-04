@@ -61,23 +61,26 @@
                 <option value="python">Python</option>
                 <option value="javascript">JavaScript</option>
             </select>
+        </fieldset>
 
+        
+        <fieldset>
+            <legend>Submission</legend>
 
             <!--Textarea-->
 
             <label for="comments">Comments</label>
             <textarea id="comments" name="comments" rows="4"></textarea>
+
+            <!--checkbox for terms and condtions-->
+
+            <input type="checkbox" id="agree" name="agree" required>
+            <label for="agree">I agree to Terms and Conditions</label>
+
+            <!--Submit button-->
+
+            <button type="submit">Submit</button>
         </fieldset>
-
-
-        <!--checkbox for terms and condtions-->
-
-        <input type="checkbox" id="agree" name="agree" required>
-        <label for="agree">I agree to Terms and Conditions</label>
-
-        <!--Submit button-->
-
-        <button type="submit">Submit</button>
 
     </form>
 </body>
