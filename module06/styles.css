@@ -77,10 +77,15 @@ textarea{
 }
 
 button {
-    background-color: green;
+    background-color: lightseagreen;
     padding: 10px;
     cursor: pointer;
     width: 100%;
+    border-radius: 4px;
+    font-weight: bolder;
+    color: white;
+    font-size: medium;
+    border: none;
 }
 
 label{
