@@ -27,6 +27,7 @@ input {
 }
 
 select {
+    width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #000000;
@@ -35,6 +36,7 @@ select {
 }
 
 textarea{
+    width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #000000;
@@ -86,6 +88,9 @@ button {
     color: white;
     font-size: medium;
     border: none;
+}
+button:hover {
+    background-color: #1a9e9e;
 }
 
 label{
