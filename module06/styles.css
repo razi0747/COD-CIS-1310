@@ -33,13 +33,13 @@ textarea{
 .hobby-options {
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: 10px 0;
 }
 
 .hobby-option {
     display: flex;
     align-items: center;
-    margin-bottom: auto;
+    margin-bottom: 8px;
 }
 
 
