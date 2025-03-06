@@ -28,6 +28,18 @@ textarea{
     border-radius: 4px;
 }
 
+.hobby-options {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.hobby-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: auto;
+}
+
 label{
     display: block;
 }
