@@ -28,6 +28,8 @@ textarea{
     border-radius: 4px;
 }
 
+/* radio buttons */
+
 .hobby-options {
     display: flex;
     flex-direction: column;
@@ -39,6 +41,20 @@ textarea{
     align-items: center;
     margin-bottom: auto;
 }
+
+
+/* submission section */
+
+.submission {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.submission input[type="checkbox"] {
+    width: auto;
+}
+
 
 label{
     display: block;
