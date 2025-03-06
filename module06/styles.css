@@ -5,6 +5,9 @@ body{
 form {
     background-color: aliceblue;
     max-width: 500px;
+    padding: 25px;
+    margin: 0 auto;
+    border-radius: 8px;
 }
 
 input {
