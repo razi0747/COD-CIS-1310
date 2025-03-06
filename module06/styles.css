@@ -23,6 +23,7 @@ input {
     border: 1px solid #000000;
     border-radius: 8px;
     width: 100%;
+    box-sizing: border-box;
 }
 
 select {
@@ -30,6 +31,7 @@ select {
     margin-bottom: 10px;
     border: 1px solid #000000;
     border-radius: 4px;
+    box-sizing: border-box;
 }
 
 textarea{
@@ -37,6 +39,7 @@ textarea{
     margin-bottom: 10px;
     border: 1px solid #000000;
     border-radius: 4px;
+    box-sizing: border-box;
 }
 
 /* radio buttons */
