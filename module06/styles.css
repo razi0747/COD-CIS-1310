@@ -43,6 +43,11 @@ textarea{
 }
 
 /* radio buttons */
+.hobby-option input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
 
 .hobby-options {
     display: flex;
