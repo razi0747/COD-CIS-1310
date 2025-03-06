@@ -67,13 +67,21 @@ textarea{
 .submission {
     display: flex;
     align-items: center;
-    margin: auto;
+    margin: 10px;
 }
 
 .submission input[type="checkbox"] {
     width: auto;
+    margin-right: 10px; /*adds space between the label of terms and conditions and the checkbox*/
+    margin-bottom: 0; /*getting rid of this bottom margin as well*/
 }
 
+button {
+    background-color: green;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+}
 
 label{
     display: block;
