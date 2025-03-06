@@ -6,7 +6,7 @@ body{
 form {
     background-color: aliceblue;
     max-width: 500px;
-    padding: 25px;
+    padding: 35px;
     margin: 0 auto;
     border-radius: 8px;
 }
@@ -16,8 +16,8 @@ h1 {
 }
 
 fieldset {
-    margin-bottom: 10px;
-    padding: 15px;
+    margin-bottom: 20px;
+    padding: 20px;
     border-radius: 8px;
 }
 
@@ -29,10 +29,11 @@ legend {
 label{
     font-weight: bolder;
     display: block;
+    margin-bottom: 10px;
 }
 
 input {
-    padding: 10px;
+    padding: 13px;
     margin-bottom: 10px;
     border: 1px solid #000000;
     border-radius: 8px;
@@ -42,7 +43,7 @@ input {
 
 select {
     width: 100%;
-    padding: 10px;
+    padding: 13px;
     margin-bottom: 10px;
     border: 1px solid #000000;
     border-radius: 4px;
@@ -51,7 +52,7 @@ select {
 
 textarea{
     width: 100%;
-    padding: 10px;
+    padding: 13px;
     margin-bottom: 10px;
     border: 1px solid #000000;
     border-radius: 4px;
@@ -77,6 +78,10 @@ textarea{
     margin-bottom: 8px;
 }
 
+.hobby-option label {
+    display: inline; 
+    margin-bottom: 0;
+}
 
 /* submission section */
 
@@ -113,4 +118,8 @@ label[for*="email"],
 label[for*="password"], 
 label[for*="agree"] {
     color: red;
+}
+
+input:invalid {
+    border-color: red;
 }
