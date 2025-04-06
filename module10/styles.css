@@ -15,3 +15,39 @@ body {
     margin: 0;
     padding: 0;
 }
+
+
+.red {
+    background-color: red;
+    grid-area: red;
+}
+
+
+.orange {
+    background-color: orange;
+    grid-area: yellow;
+}
+
+
+.yellow {
+    background-color: yellow;
+    grid-area: yellow;
+}
+
+
+.green {
+    background-color: green;
+    grid-area: green;
+}
+
+
+.cyan {
+    background-color: red;
+    grid-area: red;
+}
+
+
+.blue {
+    background-color: blue;
+    grid-area: blue;
+}
