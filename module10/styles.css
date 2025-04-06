@@ -9,6 +9,8 @@ body {
         "green green green green . . . ."
         "cyan cyan cyan cyan cyan . . ."
         "blue blue blue blue blue blue . ."
+        "violet violet violet violet violet violet violet ."
+        "purple purple purple purple purple purple purple purple"
 
      ;
     height: 100vh; 
@@ -42,12 +44,22 @@ body {
 
 
 .cyan {
-    background-color: red;
-    grid-area: red;
+    background-color: cyan;
+    grid-area: cyan;
 }
 
 
 .blue {
     background-color: blue;
     grid-area: blue;
+}
+
+.violet {
+    background-color: violet;
+    grid-area: violet;
+}
+
+.purple {
+    background-color: purple;
+    grid-area: purple;
 }
