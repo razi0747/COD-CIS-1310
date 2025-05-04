@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+.topnav {
+    background-color: grey;
+    overflow: hidden;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
