@@ -24,7 +24,7 @@ body {
 }
 
 .topnav a:hover {
-    background-color: #c8102e; /* NBA red */
+    background-color: #db4c64; /* NBA red */
     /* scale on hover */
     transform: scale(1.1);
 }
@@ -47,7 +47,7 @@ header, section {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #c8102e;
+    background-color: #eb4f69;
     color: white;
 }
 
@@ -58,4 +58,16 @@ h1 {
     margin-bottom: 15px;
     color: #e6aa65;
     text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #ff00b3; 
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ff3939; 
 }
