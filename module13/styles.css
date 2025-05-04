@@ -28,3 +28,24 @@ body {
     /* scale on hover */
     transform: scale(1.1);
 }
+
+/* overall layout  */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header, section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #c8102e;
+    color: white;
+}
