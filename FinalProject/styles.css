@@ -183,3 +183,12 @@ fieldset label {
     display: block;
     margin-bottom: 5px;
 }
+
+/* footer styles */
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #006BB6;
+    color: white;
+}
