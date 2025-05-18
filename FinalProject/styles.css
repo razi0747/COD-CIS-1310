@@ -45,3 +45,19 @@ nav ul {
 nav ul li {
     margin: 5px 10px;
 }
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #E03A3E; 
+}
+
+nav ul li a.active {
+    background-color: #E03A3E; 
+}
