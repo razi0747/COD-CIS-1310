@@ -192,3 +192,25 @@ footer {
     background-color: #006BB6;
     color: white;
 }
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+/* adding the media query for desktop */
+
+@media screen {
+    
+    nav ul {
+        flex-wrap: nowrap;
+    }
+
+     nav ul li {
+        margin: 0 15px;
+    }
+    
+   
+        
+
+}
