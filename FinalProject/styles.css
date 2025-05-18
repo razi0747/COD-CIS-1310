@@ -154,3 +154,10 @@ input[type="text"], input[type="email"], select, textarea {  /*all the input sec
     border: 1px solid grey;
     border-radius: 4px;
 }
+
+button {
+    background-color: #006BB6;
+    color: white;
+    border: none;
+
+}
