@@ -229,12 +229,28 @@ footer a {
 
     
     /* fixing the form layout */
-    
+
     .form-group fieldset {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
     }
+
+
+
+
+/* fixing the messed up floated images */
+    .player::after, .team::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+
+
+
+
 }
-        
+
+
 
