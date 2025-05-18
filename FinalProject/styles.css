@@ -164,3 +164,22 @@ button {
     cursor: pointer;
     margin-right: 10px;
 }
+
+button:hover {
+    background-color: #005a9c;
+}
+
+fieldset {
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+legend {
+    padding: 0 5px;
+}
+
+fieldset label {
+    display: block;
+    margin-bottom: 5px;
+}
