@@ -61,3 +61,21 @@ nav ul li a:hover {
 nav ul li a.active {
     background-color: #E03A3E; 
 }
+
+
+/* main css */
+
+main {
+    padding: 20px 0;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #006BB6; 
+    margin-bottom: 15px;
+    border-bottom: 2px solid #E03A3E; 
+    padding-bottom: 5px;
+}
