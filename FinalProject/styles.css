@@ -79,3 +79,12 @@ h2 {
     border-bottom: 2px solid #E03A3E; 
     padding-bottom: 5px;
 }
+
+h3 {
+    color: #006BB6; 
+    margin: 10px 0 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
