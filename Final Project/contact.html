@@ -21,54 +21,70 @@
         </header>
         
 <main>
-    <section class="contact-form">
-        <h2>Contact Us</h2>
-        <p>Have questions about specfic topics or players? Maybe something is missing? Fill out the form below to get in touch with me.</p>
+<section class="contact-form">
+    <h2>Contact Us</h2>
+    <p>Have questions about specfic topics or players? Maybe something is missing? Fill out the form below to get in touch with me.</p>
 
-        <form action="#" method="post">
-        <!-- name entry -->
-            <div class="form-group">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-            </div>
+    <form action="#" method="post">
+    <!-- name entry -->
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
 
-        <!-- email entry -->
+    <!-- email entry -->
 
-            <div class="form-group">
-                <label for="name">Email:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
+        <div class="form-group">
+            <label for="name">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
 
-        <!-- subject entry -->
+    <!-- subject entry -->
 
-            <div class="form-group">
-                <label for="name">Subject:</label>
-                <input type="text" id="subject" name="subject" required>
-            </div>
+        <div class="form-group">
+            <label for="name">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+        </div>
 
-        <!-- message entry -->
+    <!-- message entry -->
 
-            <div class="form-group">
-                <label for="name">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-            </div>
+        <div class="form-group">
+            <label for="name">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
 
-        <!-- dropdown menu for teams -->
+    <!-- dropdown menu for teams -->
 
-            <div class="form-group">
-                <label for="favorite-team">Favorite NBA Team:</label>
-                <select id="favorite-team" name="favorite-team">
-                    <option value="">--Select a team--</option>
-                    <option value="lakers">Los Angeles Lakers</option>
-                    <option value="celtics">Boston Celtics</option>
-                    <option value="bulls">Chicago Bulls</option>
-                    <option value="warriors">Golden State Warriors</option>
-                    <option value="heat">Miami Heat</option>
-                    <option value="other">Other</option>
-                </select>
-            </div>
+        <div class="form-group">
+            <label for="favorite-team">Favorite NBA Team:</label>
+            <select id="favorite-team" name="favorite-team">
+                <option value="">--Select a team--</option>
+                <option value="lakers">Los Angeles Lakers</option>
+                <option value="celtics">Boston Celtics</option>
+                <option value="bulls">Chicago Bulls</option>
+                <option value="warriors">Golden State Warriors</option>
+                <option value="heat">Miami Heat</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
 
-
+        <div class="form-group">
+            <fieldset>
+                <legend>Preferred Content:</legend>
+                <label>
+                    <input type="checkbox" name="content" value="players"> Player Profiles
+                </label>
+                <label>
+                    <input type="checkbox" name="content" value="teams"> Team Information
+                </label>
+                <label>
+                    <input type="checkbox" name="content" value="history"> NBA History
+                </label>
+                <label>
+                    <input type="checkbox" name="content" value="stats"> Statistics
+                </label>
+            </fieldset>
+        </div>
 
 
 
