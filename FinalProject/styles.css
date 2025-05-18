@@ -201,16 +201,30 @@ footer a {
 /* adding the media query for desktop */
 
 @media screen {
-    
+
+/* navigation */
+
+
     nav ul {
         flex-wrap: nowrap;
     }
-
-     nav ul li {
+    
+    nav ul li {
         margin: 0 15px;
     }
     
-   
+    /* making the grid layout */
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    /* player and team grid */
+    .players-grid, .teams-grid {
+        display: grid;
+        gap: 20px;
+    }
+}
         
 
-}
