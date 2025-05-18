@@ -100,6 +100,7 @@ featured-image {
 .video-container {
     position: relative;
     overflow: hidden;
+    padding-top: 50%;
     margin-bottom: 15px;
 }
 
