@@ -6,3 +6,9 @@ body {
     /* bg image */
     background-image: url('images/moroccan-flower-dark.png');
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
